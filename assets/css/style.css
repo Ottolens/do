@@ -1,0 +1,130 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../imagine/back.png);
+}
+
+.main {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.yourname {
+    width: 250px;
+    height: 100px;
+    background-color: #4aaaa5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yourname p {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul {
+    display: flex;
+    gap: 20px;
+}
+
+.ul a {
+    border-right: 1px solid rgba(223, 223, 223, 1);
+    padding-right: 15px;
+    text-decoration: none;
+    color: grey;
+}
+
+.mainsection {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+
+}
+
+.section1 {
+    width: 65%;
+    padding: 30px;
+    background-color: white;
+}
+
+.section1 img {
+    width: 180px;
+    float: left;
+    margin-right: 20px;
+}
+
+.section1 h1 {
+    font-size: 30px;
+    color: #4aaaa5;
+    font-weight: bold;
+    padding-bottom: 20px;
+    border-bottom: 3px solid rgba(209, 209, 209, 5);
+    margin-bottom: 30px;
+}
+
+.mars,
+.jell {
+    font-size: 19px;
+    line-height: 36px;
+    color: grey;
+    margin-bottom: 15px;
+}
+
+.section2 {
+    width: 250px;
+    height: 170px;
+    background-color: white;
+    padding: 30px 15px 10px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section2 h2 {
+    font-size: 25px;
+    color: #4aaaa5;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.link {
+    display: flex;
+    gap: 10px;
+}
+
+.link img {
+    width: 70px;
+}
+
+.footer {
+    background-color: rgb(114, 114, 114);
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 8px solid #4aaaa5;
+}
+.footer p{
+    color: white;
+    font-size: 15px;
+}
